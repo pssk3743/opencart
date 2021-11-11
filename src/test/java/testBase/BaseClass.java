@@ -77,8 +77,9 @@ public class BaseClass {
   public void capturescreen(WebDriver driver, String classname) throws IOException {
 	  TakesScreenshot ts=(TakesScreenshot)driver;
 	  File scr=ts.getScreenshotAs(OutputType.FILE);
-	  File target=new File(System.getProperty("user.dir")+"\\screenshots\\"+classname+".png");
+	  File target = new File(System.getProperty("user.dir") + "\\screenshots\\" + classname + ".png");
       FileUtils.copyFile(scr,target );
+      logger.info("screenshot taken");
 	
 }
 }
