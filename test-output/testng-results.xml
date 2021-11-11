@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-04T15:50:26 EDT" name="OpenCart TestSuite" finished-at="2021-11-04T15:51:09 EDT" duration-ms="43024">
+    <groups>
+    </groups>
+    <test started-at="2021-11-04T15:50:26 EDT" name="OpenCart Tests" finished-at="2021-11-04T15:51:09 EDT" duration-ms="43024">
+      <class name="testCases.TC_010_ShoppingCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_010_ShoppingCart@659499f1]" started-at="2021-11-04T15:50:27 EDT" name="setup" finished-at="2021-11-04T15:50:32 EDT" duration-ms="5372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_ShoppingCart()[pri:0, instance:testCases.TC_010_ShoppingCart@659499f1]" started-at="2021-11-04T15:50:32 EDT" name="test_ShoppingCart" finished-at="2021-11-04T15:51:09 EDT" duration-ms="36692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ShoppingCart -->
+        <test-method is-config="true" signature="teadDown()[pri:0, instance:testCases.TC_010_ShoppingCart@659499f1]" started-at="2021-11-04T15:51:09 EDT" name="teadDown" finished-at="2021-11-04T15:51:09 EDT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testCases.TC_010_ShoppingCart -->
+    </test> <!-- OpenCart Tests -->
+  </suite> <!-- OpenCart TestSuite -->
+</testng-results>
